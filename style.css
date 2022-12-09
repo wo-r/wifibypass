@@ -76,7 +76,7 @@ div[main] {
 }
 
 div[main] .about {
-    padding: 20px 70px 20px 70px;
+    padding: 10px 50px 10px 50px;
     background-color: var(--box-color);
     box-shadow: 0px 3px 21px -10px rgba(0,0,0,1);
 
