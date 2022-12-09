@@ -85,7 +85,6 @@ div[main] .about {
 }
 
 div[main] .grid-container /* used for scrollbar */ {
-    padding: 10px 50px 10px 50px;
     border: var(--border-color); /* debug */
 }
 
@@ -93,7 +92,7 @@ div[main] .grid {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 5fr));
-    padding: 20px 0px 0px 20px;
+    padding: 10px 50px 10px 50px;
 
     margin: 0;
 
