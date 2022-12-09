@@ -72,7 +72,7 @@
         "title": "Lunar Client",
         "description": "What exactly is Lunar Client? Lunar Client, as described by its website, is a modpack for Minecraft 1.7, 1.8, 1.12, 1.15, and 1.16. It will most likely be ported to 1.17 as well. Offering countless features such as boosted framerates, cosmetics, optimizations, and more.",
         "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #5f2ea4, #4b3584, #572e87, #683b8f, #7123a3, #602e75, #4156ab, #000000, #000000)",
-        "disabled": false,
+        "disabled": true,
 
         "default": {
             "win": "https://github.com/johnymcreed/wifibypass/raw/database/lunarclient/installer-win.msi",
@@ -214,7 +214,7 @@
         "title": "Epic Launcher",
         "description": "Along with exclusive titles created in-house by Epic Games, the launcher includes downloads for the Unreal Engine game creation platform, and licensed games from third-party developers. Users of the launcher also periodically receive exclusive free games and discounts.",
         "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #0e141b, #0f141a, #07090c, #050507, #000000, #06080a, #05060a, #000000, #000000)",
-        "disabled": false,
+        "disabled": true,
 
         "default": {
             "win": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-win.msi",
@@ -234,11 +234,11 @@
         "title": "Visual Studio",
         "description": "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.",
         "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #c1a370, #886a30, #69562c, #666144, #6f5b32, #846f2d, #05060a, #000000, #000000)",
-        "disabled": false,
+        "disabled": true,
 
         "default": {
-            "win": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-win.exe",
-            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-mac.zip"
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/vscode/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/vscoder/installer-mac.zip"
         },
 
         "enable_extra": false,

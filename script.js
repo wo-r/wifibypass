@@ -46,7 +46,6 @@ document.addEventListener('click', () => {
     var caret = document.getElementById('caret-popup')
 })
 
-
 // -- Big API to add subgrid boxes to page
 $(document).ready(function () 
 {
