@@ -122,6 +122,12 @@ $(document).ready(function ()
                             <li>` + keys + `<text class="icons"><a href="` + values[0] + `"><i style="padding-right: 10px;" class="fa-brands fa-windows"></i></a></text></li>
                         `   
                     }
+                    else if (!values[0])
+                    {
+                        list = `
+                            <li>` + keys + `<text class="icons"><a href="` + values[1] + `"><i style="padding-right: 10px;" class="fa-brands fa-apple"></i></a></text></li>
+                        `   
+                    }
                     else
                     [
                         list = `

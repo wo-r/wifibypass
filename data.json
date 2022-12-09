@@ -66,6 +66,28 @@
         "warn": null
     },
 
+    "lunarclient": {
+        "type": "lunarclient",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/lunarclient/logo.png", "0%"],
+        "title": "Lunar Client",
+        "description": "What exactly is Lunar Client? Lunar Client, as described by its website, is a modpack for Minecraft 1.7, 1.8, 1.12, 1.15, and 1.16. It will most likely be ported to 1.17 as well. Offering countless features such as boosted framerates, cosmetics, optimizations, and more.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #5f2ea4, #4b3584, #572e87, #683b8f, #7123a3, #602e75, #4156ab, #000000, #000000)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/lunarclient/installer-win.msi",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/lunarclient/installer-mac.dmg"
+        },
+
+        "enable_extra": true,
+        "extra": {
+            "Intel": ["", "https://github.com/johnymcreed/wifibypass/raw/database/lunarclient/installer-intel.dmg"]
+        },
+
+        "enable_warn": false,
+        "warn": null
+    },
+
     "telegram": {
         "type": "telegram",
         "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/telegram/logo.png", "100%"],
@@ -197,6 +219,26 @@
         "default": {
             "win": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-win.msi",
             "mac": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "vscode": {
+        "type": "vscode",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/vscode/logo.png", "0%"],
+        "title": "Visual Studio",
+        "description": "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #c1a370, #886a30, #69562c, #666144, #6f5b32, #846f2d, #05060a, #000000, #000000)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-mac.zip"
         },
 
         "enable_extra": false,
