@@ -1,0 +1,208 @@
+{
+    "opera": {
+        "type": "opera",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/opera-gx/logo.png", "100%"],
+        "title": "Opera GX",
+        "description": "Get an unparalleled gaming and browsing experience on mobile and desktop. Set limits on CPU, RAM, and Network usage, use Discord & Twitch from the sidebar, and connect mobile and desktop browsers with the file-sharing Flow feature.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #d00743, #c21045, #b41847, #a72048, #9a274a, #8e2e4b, #82354c, #773b4d, #6c404d, #62454e, #584a4e, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/installer-mac.zip"
+        },
+
+        "enable_extra": true,
+        "extra": {
+            "Crypto": ["https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/crypto/installer-win.exe", 
+                        "https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/crypto/installer-mac.zip"],
+            "Opera": ["https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/opera/installer-win.exe", 
+                        "https://github.com/johnymcreed/wifibypass/raw/database/opera-gx/opera/installer-mac.zip"]
+        },
+
+        "enable_warn": true,
+        "warn": "Opera VPN will not work with CK authenticator in use."
+    },
+    
+    "firefox": {
+        "type": "firefox",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/mozilla/logo.png", "100%"],
+        "title": "Firefox",
+        "description": "Firefox was created by Mozilla as a faster, more private alternative to browsers like Internet Explorer, and now Chrome. Today, our mission-driven company and volunteer community continue to put your privacy above all else.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #ff9400, #ff9400, #ff9400, #d76e00, #a05c14, #9c652a, #ac5d09, #a05300, #94530e, #5e370d, #44290d, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/mozilla/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/mozilla/installer-mac.dmg"
+        },
+
+        "enable_extra": true,
+        "extra": {
+            "32 Bit": ["https://github.com/johnymcreed/wifibypass/raw/database/mozilla/firefox-32bit/installer-win.exe", ""]
+        },
+
+        "enable_warn": true,
+        "warn": "Will not function correctly as expected if you have CK Authenticator installed on your computer."
+    },
+
+    "minecraft": {
+        "type": "minecraft",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/minecraft/logo.png", "0%"],
+        "title": "Minecraft",
+        "description": "Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds. The game's two main modes are Survival and Creative. In Survival, players must find their own building supplies and food. They also interact with blocklike mobs, or moving creatures.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #2b5434, #2f6c40, #2f6c40, #34694e, #2f6c40, #3a6642, #305834, #204225, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/minecraft/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/minecraft/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "telegram": {
+        "type": "telegram",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/telegram/logo.png", "100%"],
+        "title": "Telegram",
+        "description": "Telegram Messenger is a globally accessible freemium, cross-platform, encrypted, cloud-based and centralized instant messaging (IM) service. end-to-end encryption so no one else can know what you're talking about.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #67c7df, #67c7df, #67c7df, #2081a7, #278d9a, #2e8e89, #357c82, #3b7077, #406c6c, #456062, #4a584f, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/telegram/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/telegram/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "spotify": {
+        "type": "spotify",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/spotify/logo.png", "100%"],
+        "title": "Spotify",
+        "description": "Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Basic functions such as playing music are totally free, but you can also choose to upgrade to Spotify Premium.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #67df75, #67df75, #67df75, #20a725, #279a42, #2e8e54, #358243, #3b773e, #406c55, #456250, #4a584f, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/spotifyinstaller-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/spotify/installer-mac.zip"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "discord": {
+        "type": "discord",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/discord/logo.png", "100%"],
+        "title": "Discord",
+        "description": "Discord is a free communications app that lets you share voice, video, and text chat with friends, game communities, and developers. It has hundreds of millions of users, making it one of the most popular ways to connect with people online.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #6777df, #6777df, #6777df, #203ba7, #274d9a, #2e448e, #353582, #3b3e77, #40436c, #4b4562, #4a4b58, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/discord/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/discord/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": true,
+        "warn": "Will not function correctly as expected if you have CK Authenticator installed on your computer."
+    },
+
+    "steam": {
+        "type": "steam",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/steam/logo.png", "100%"],
+        "title": "Steam",
+        "description": "Steam is a video game digital distribution service and storefront by Valve. It was launched as a software client in September 2003 as a way for Valve to provide automatic updates for their games, and expanded to distributing and offering third-party game publishers' titles in late 2005.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #1b2838, #141e29, #171a21, #171a21, #171a21, #171a21, #171a21, #171a21, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/steam/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/steam/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "proton": {
+        "type": "proton",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/proton/logo.png", "100%"],
+        "title": "Proton VPN",
+        "description": "Secure VPN service developed by CERN and MIT scientists. Securely access any content at home or on the go. Strong Protocols. Swiss Privacy. 60+ Countries. DNS Leak Prevention. Open Source. Built-in Kill Switch. 1700+ Servers. Award Winning. Secure Core.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #6C4AFE, #6C4AFE, #6C4AFE, #6C4AFE, #4f3ca3, #4329b4, #342380, #302079, #30226e, #1b1147, #1e1641, #4e4e4e)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/proton/installer-win.exe",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/proton/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": true,
+        "warn": "Will not function correctly as expected if you have CK Authenticator installed on your computer."
+    },
+
+    "pokemon": {
+        "type": "pokemon",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/pokemon/logo.png", "100%"],
+        "title": "Pokémon",
+        "description": "Pokémon is a series of video games developed by Game Freak and published by Nintendo and The Pokémon Company under the Pokémon media franchise.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #d3df67, #d3df67, #d3df67, #a79c20, #9a9027, #8e8c2e, #818235, #6b773b, #636c40, #626245, #4a584f, #4e4e4e)",
+        "disabled": true,
+
+        "default": {
+            "win": "",
+            "mac": ""
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    },
+
+    "epiclauncher": {
+        "type": "epiclauncher",
+        "icon": ["https://raw.githubusercontent.com/johnymcreed/wifibypass/database/epiclauncher/logo.png", "0%"],
+        "title": "Epic Launcher",
+        "description": "Along with exclusive titles created in-house by Epic Games, the launcher includes downloads for the Unreal Engine game creation platform, and licensed games from third-party developers. Users of the launcher also periodically receive exclusive free games and discounts.",
+        "theme": "conic-gradient(from -96deg at -20% 74%, #171a21, #171a21, #171a21, #0e141b, #0f141a, #07090c, #050507, #000000, #06080a, #05060a, #000000, #000000)",
+        "disabled": false,
+
+        "default": {
+            "win": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-win.msi",
+            "mac": "https://github.com/johnymcreed/wifibypass/raw/database/epiclauncher/installer-mac.dmg"
+        },
+
+        "enable_extra": false,
+        "extra": {},
+
+        "enable_warn": false,
+        "warn": null
+    }
+}
