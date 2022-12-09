@@ -12,12 +12,12 @@
         <!-- media -->
         <meta property="og:title" content="Wifi Bypasser" />
         <meta property="og:type" content="Website" />
-        <meta property="og:url" content="wifipasser.000webhostapp.com" />
+        <meta property="og:url" content="johnymcreed.github.io/wifibypass/" />
         <meta property="og:description" content="Basic bypasser for pesky wifi filters mostly used by schools.">
-        <meta property="og:site_name" content="wifi bypasser">
+        <!--<meta property="og:site_name" content="wifi bypasser">-->
         <!--<meta property="og:image" content=""/>-->
 
-        <!--<base href="https://wifipasser.000webhostapp.com/">-->
+        <!--<base href="https://johnymcreed.github.io/wifibypass/">-->
 
         <!-- files -->
         <link rel="stylesheet" href="./style.css">
@@ -35,16 +35,14 @@
         <div main>
             <div class="about">
                 <h1> Welcome! </h1>
-                <p>
-                    This simple website gives you downloadables for mac and windows computers to Bypass
-                    schools wifi blockers or just a place to simply download your favorite media apps and other stuff.
+                <p id="description">
                 </p>
                 <p>
-                    Creator: Johnymcreed &copy; 2022-<script>document.write(new Date().getFullYear())</script> <br>
-                    Published: Mon, Dec 5th 2022
+                    Creator: <text id="author"></text> &copy; 2022-<script>document.write(new Date().getFullYear())</script> <br>
+                    Published: <text id="published"></text>
                 </p>
             </div>
-            <div class="grid-container" id="tester">
+            <div class="grid-container">
                 <!----->
                 <div class="grid">
                     <!-- content spaces with subgrid -->
@@ -54,5 +52,16 @@
             <!---->
         </div>
         <!---->
+        <noscript>
+            <link rel="stylesheet" href="./style.css">
+            <style>
+                .about {
+                    display: none;
+                }
+            </style>
+            <div class="info-box">
+                <p><center>Please enable javascript or else this page will not function as expected</center></p>
+            </div>
+        </noscript>
     </body hidden> <!-- banner -->
 </html>

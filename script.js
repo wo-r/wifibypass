@@ -1,3 +1,5 @@
+/* copyright johnymcreed (no others can use this) */
+
 // -- lazy loader (improves website loading & throttling)
 document.addEventListener("DOMContentLoaded", function() 
 {
@@ -41,15 +43,44 @@ document.addEventListener("DOMContentLoaded", function()
 // -- Things that are disabled lol
 document.querySelectorAll("[disabled]").disabled = true;
 
-// -- open a popup with info related to it
-document.addEventListener('click', () => {
-    var caret = document.getElementById('caret-popup')
-})
+// -- Smaller json reader that setups website
+$(document).ready(function () {
+    $.getJSON("config.json", function (e) 
+    {
+        // Info
+        var author = JSON.parse(JSON.stringify(e)).author;
+        var date = JSON.parse(JSON.stringify(e)).published;
+        var description = JSON.parse(JSON.stringify(e)).description;
 
-// -- Big API to add subgrid boxes to page
+        // Append
+        $('#author').append(author);
+        $('#published').append(date);
+        $('#description').append(description);
+
+        // Structure
+        var offline = JSON.parse(JSON.stringify(e)).offline;
+        var construction = JSON.parse(JSON.stringify(e)).construction;
+
+        // Offline
+        if (offline == true)
+        {
+            $('div[main]').css('display', 'none');
+            $('body').append('<div class="info-box"><p><center>Website offline</center></p></div>')
+        }
+
+        // Under Construction
+        if (construction == true)
+        {
+            $('div[main]').css('display', 'none');
+            $('body').append('<div class="info-box"><p><center>Website under construction</center></p></div>')
+        }
+    });
+});
+
+// -- Big json reader to add subgrid boxes to page
 $(document).ready(function () 
 {
-    $.getJSON("data.json", function (data) 
+    $.getJSON("grid.json", function (data) 
     {
 
         var raw = '';
@@ -76,8 +107,7 @@ $(document).ready(function ()
                             ` + JSON.parse(JSON.stringify(value)).description + `
                         </p>
                     </p>
-                    <p class="warns">
-                    </p>
+                    <p class="warns"></p>
                     <p>
                         <div style="display: inline;">
                             <a class="download" href="` + JSON.parse(JSON.stringify(value))['default'].win + `" download>
@@ -92,8 +122,7 @@ $(document).ready(function ()
                             </a>
                         </div>
                     </p>
-                    <p class="extras">
-                    </p>
+                    <p class="extras"></p>
                 </div>
             `
             

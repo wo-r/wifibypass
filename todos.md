@@ -4,8 +4,8 @@ Roblox
 --Epic Launcher
 Youtube Music
 Chrome
-Vscode
+--Vscode
 Tor
 Atlas VPN
-Lunar Client
+--Lunar Client
 Blurp
