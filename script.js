@@ -60,19 +60,34 @@ $(document).ready(function () {
         // Structure
         var offline = JSON.parse(JSON.stringify(e)).offline;
         var construction = JSON.parse(JSON.stringify(e)).construction;
+        var offline_reason = JSON.parse(JSON.stringify(e)).offline_reason;
+        var construction_reason = JSON.parse(JSON.stringify(e)).construction_reason;
+
+        var o_reason = '';
+        var c_reason = '';
+
+        if (offline_reason == "")
+            o_reason = ''
+        else
+            o_reason = '<br>' + '<small><small>\"' + offline_reason + '\"</small></small>'
+
+        if (construction_reason == "")
+            c_reason = ''
+        else
+            c_reason = '<br>' + '<small><small>\"' + construction_reason + '\"</small></small>';
 
         // Offline
         if (offline == true)
         {
             $('div[main]').css('display', 'none');
-            $('body').append('<div class="info-box"><p><center>Website offline</center></p></div>')
+            $('body').append('<div class="info-box"><p><center>Website offline' + o_reason + '</center></p></div>')
         }
 
         // Under Construction
         if (construction == true)
         {
             $('div[main]').css('display', 'none');
-            $('body').append('<div class="info-box"><p><center>Website under construction</center></p></div>')
+            $('body').append('<div class="info-box"><p><center>Website under construction' + c_reason + '</center></p></div>')
         }
     });
 });

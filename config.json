@@ -4,5 +4,8 @@
     "description": "This simple website gives you downloadables for mac and windows computers to Bypass schools wifi blockers or just a place to simply download your favorite media apps and other stuff.",
 
     "offline": true,
-    "construction": false
+    "construction": false,
+
+    "offline_reason": "Files are not uploded please wait a month",
+    "construction_reason": ""
 }
